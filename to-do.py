@@ -23,7 +23,7 @@ while True:
     else:
         print("Invalid choice! Try again.")"""
 
-FILENAME = "tasks.txt"
+"""FILENAME = "tasks.txt"
 
 
 def load_tasks():
@@ -83,4 +83,11 @@ while True:
         break
 
     else:
-        print("No such option, try again.")
+        print("No such option, try again.")"""
+
+a = 5
+b = 55
+print(a+b)
+print(a+b)
+print(a+b)
+print(a+b)
