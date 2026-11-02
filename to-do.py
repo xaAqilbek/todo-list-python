@@ -1,5 +1,3 @@
-from traceback import print_tb
-
 FILENAME = "tasks.txt"
 
 def load_tasks():
@@ -9,10 +7,10 @@ def load_tasks():
     except FileNotFoundError:
         return []
 
-def save_tasks(tasks):
+def save_tasks(task_list):
     with open(FILENAME, "w", encoding="utf-8") as file:
-        for task in tasks:
-            file.write(task + "\n")
+        for item in task_list:
+            file.write(item + "\n")
 
 tasks = load_tasks()
 
